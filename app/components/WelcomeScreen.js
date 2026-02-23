@@ -3,10 +3,10 @@
 export default function WelcomeScreen({ onStart }) {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-12 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 px-6 py-12">
-      <div className="flex flex-col items-center gap-4 text-center">
-        <h1 className="text-5xl font-bold tracking-tight text-white md:text-6xl">
-          ScrollSmart
-        </h1>
+      <div className="flex flex-col items-center gap-6 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-amber-400 to-teal-400">
+          Quit scrolling, start quiz scrolling
+        </h2>
         <p className="text-xl text-slate-300">
           Replace your doom scrolling with brain fuel
         </p>
@@ -14,8 +14,8 @@ export default function WelcomeScreen({ onStart }) {
 
       <div className="grid w-full max-w-2xl gap-4 md:gap-6">
         <div className="rounded-lg bg-slate-800/50 p-6 border border-teal-500/20">
-          <h3 className="font-semibold text-teal-400 mb-2">Swipe through questions</h3>
-          <p className="text-slate-300">MCQs, True/False, and more</p>
+          <h3 className="font-semibold text-teal-400 mb-2">Challenge yourself</h3>
+          <p className="text-slate-300">Answer multiple choice questions from diverse topics</p>
         </div>
         <div className="rounded-lg bg-slate-800/50 p-6 border border-amber-500/20">
           <h3 className="font-semibold text-amber-400 mb-2">Earn your score</h3>
